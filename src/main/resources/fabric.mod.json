@@ -3,15 +3,15 @@
 	"id": "end-update",
 	"version": "${version}",
 	"name": "The End Update",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Copyright (C) 2025, Chrys ZG (LividJester3858, LividJester)",
 	"authors": [
-		"Me!"
+		"Chrys ZG (LividJester3858, LividJester)"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPLv3",
 	"icon": "assets/end-update/icon.png",
 	"environment": "*",
 	"entrypoints": {

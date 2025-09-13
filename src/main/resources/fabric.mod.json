@@ -3,13 +3,13 @@
 	"id": "end-update",
 	"version": "${version}",
 	"name": "The End Update",
-	"description": "Copyright (C) 2025, Chrys ZG (LividJester3858, LividJester)",
+	"description": "A mod which expands the end dimension, because Mojang wouldn't do it for us.\nCopyright (C) 2025, Chrys ZG (LividJester3858, LividJester)",
 	"authors": [
 		"Chrys ZG (LividJester3858, LividJester)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/LividJester3858/",
+		"sources": "https://github.com/LividJester3858/the-end-update-fabric-1.21"
 	},
 	"license": "GPLv3",
 	"icon": "assets/end-update/icon.png",
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"com.lividjester.endupdate.TheEndUpdateDataGenerator"
-		]
+		],
+        "client": [
+            "com.lividjester.endupdate.TheEndUpdateClient"
+        ]
 	},
 	"mixins": [
 		"end-update.mixins.json"

@@ -12,6 +12,7 @@ public class ModItems {
 
 
     // Custom items
+    public static final Item VOID_FRAGMENT = registerItem("void_fragment", new Item(new Item.Settings()));
     public static final Item VOID_SHARD = registerItem("void_shard", new Item(new Item.Settings()));
     public static final Item IGNITED_VOID_SHARD = registerItem("ignited_void_shard", new Item(new Item.Settings()));
 
@@ -26,6 +27,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             // Add items to groups
             // Go to ModItemGroups.java for custom item groups
+            entries.add(VOID_FRAGMENT);
             entries.add(VOID_SHARD);
             entries.add(IGNITED_VOID_SHARD);
         });

@@ -3,5 +3,7 @@
   "item.end-update.void_shard": "Void Shard",
   "item.end-update.ignited_void_shard": "Ignited Void Shard",
 
+  "block.end-update.void_ore": "Void Ore",
+
   "itemgroup.end-update.end_update_items": "End Update Items"
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:void_shard"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "end-update:void_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_void_fragment"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:void_shard"
+    ]
+  }
+}

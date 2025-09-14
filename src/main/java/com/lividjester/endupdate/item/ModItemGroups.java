@@ -1,6 +1,7 @@
 package com.lividjester.endupdate.item;
 
 import com.lividjester.endupdate.TheEndUpdate;
+import com.lividjester.endupdate.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,9 +18,12 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.end-update.end_update_items"))
                     .entries((displayContext, entries) -> {
                         // Add items
+                        entries.add(ModBlocks.VOID_ORE);
+
                         entries.add(ModItems.VOID_FRAGMENT);
                         entries.add(ModItems.VOID_SHARD);
                         entries.add(ModItems.IGNITED_VOID_SHARD);
+
                     })
                     .build());
 

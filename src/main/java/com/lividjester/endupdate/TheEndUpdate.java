@@ -1,5 +1,6 @@
 package com.lividjester.endupdate;
 
+import com.lividjester.endupdate.block.ModBlocks;
 import com.lividjester.endupdate.item.ModItemGroups;
 import com.lividjester.endupdate.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,6 @@ public class TheEndUpdate implements ModInitializer {
 	public void onInitialize() {
         ModItemGroups.registerItemGroups(); // Register custom item groups
         ModItems.registerModItems(); // Register items
+        ModBlocks.registerModBlocks(); // Register blocks
 	}
 }

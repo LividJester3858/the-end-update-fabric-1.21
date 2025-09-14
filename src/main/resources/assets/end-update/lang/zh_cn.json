@@ -1,7 +1,10 @@
 {
-  "item.end-update.void_fragment": "空白小片",
+  "block.end-update.void_ore": "空白矿石",
+
+  "item.end-update.void_fragment": "空白残片",
   "item.end-update.void_shard": "空白碎片",
   "item.end-update.ignited_void_shard": "燃烧空白碎片",
 
   "itemgroup.end-update.end_update_items": "末地更新的物品"
+
 }

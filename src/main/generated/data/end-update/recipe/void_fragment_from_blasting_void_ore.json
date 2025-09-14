@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1200,
+  "experience": 5.0,
+  "ingredient": {
+    "item": "end-update:void_ore"
+  },
+  "result": {
+    "id": "end-update:void_fragment"
+  }
+}
